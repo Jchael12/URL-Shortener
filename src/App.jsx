@@ -64,12 +64,12 @@ function App() {
       <button
         type="button"
         onClick={handleThemeSwitch}
-        className="fixed p-2 lg:right-60 right-20 top-3 md:top-7 bg-violet-300 text-lg rounded-lg dark:bg-pink-700"
+        className="absolute p-2 lg:right-60 right-20 top-3 md:top-7 bg-violet-300 text-lg rounded-lg dark:bg-pink-700"
       >
         {theme === "dark" ? lightBtn : moon}
       </button>
-      <div className="dark:bg-stone-800 transition duration-500 ease-in-out dark:text-stone-300">
-        <div className="md:mx-auto md:w-8/12 h-screen">
+      <div className="dark:bg-stone-800 transition duration-500 ease-in-out dark:text-stone-300 h-full">
+        <div className="md:mx-auto md:w-8/12 min-h-screen">
           <Nav />
           <Main />
         </div>

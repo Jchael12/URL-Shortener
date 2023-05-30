@@ -52,7 +52,7 @@ function Main() {
   };
 
   return (
-    <div className="flex flex-col mx-auto">
+    <div className="flex flex-col mx-auto ">
       <div className="md:flex justify-around h-full w-full mt-10 lg:my-20">
         {/* DESCRIPTION */}
         <div className="flex flex-col items-center md:items-start justify-center px-5 py-10">
