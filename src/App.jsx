@@ -68,8 +68,8 @@ function App() {
       >
         {theme === "dark" ? lightBtn : moon}
       </button>
-      <div className="dark:bg-stone-800 transition duration-500 ease-in-out dark:text-stone-300">
-        <div className="md:mx-auto md:w-8/12 h-screen">
+      <div className="dark:bg-stone-800 transition duration-500 ease-in-out dark:text-stone-300 h-full">
+        <div className="md:mx-auto md:w-8/12 min-h-screen">
           <Nav />
           <Main />
         </div>
