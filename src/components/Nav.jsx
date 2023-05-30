@@ -11,7 +11,7 @@ function Nav() {
     <header className="w-full p-4 md:p-8">
       <nav className=" flex items-center justify-between">
         <h1 className=" dark:text-white text-gray-800 font-bold text-3xl">
-          URL
+          Shortify
         </h1>
         <div>
           <svg
